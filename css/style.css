@@ -1,0 +1,11 @@
+/* ===================universal selector start=================== */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+/* ===================universal selector end=================== */
+
+/* ======================shard style start====================== */
+/* ======================shard style end ======================= */
