@@ -200,3 +200,26 @@ header nav a {
 .users_say_card_item .card_profile {
 }
 /* ====================What our users say section end==================== */
+
+/* ====================Ready to focus better section start==================== */
+.focus_better_section {
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+  padding: 71px 150px;
+  background: var(--white-color);
+  border-radius: 24px;
+  text-align: center;
+}
+.focus_better_section h1 {
+  font-size: 45px;
+  color: #000;
+}
+.focus_better_section p {
+  font-size: 16px;
+  color: #00000080;
+}
+.focus_better_section img {
+  border-radius: 48px;
+}
+/* ====================Ready to focus better section end==================== */
