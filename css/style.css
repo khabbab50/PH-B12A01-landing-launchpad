@@ -264,3 +264,34 @@ textarea {
   font-size: 20px;
 }
 /* ====================get_in_touch section end==================== */
+
+/* ====================footer section start==================== */
+footer {
+  background: var(--white-color);
+}
+footer .container {
+  text-align: center;
+  font-family: "Inter", sans-serif;
+  padding: 104px 0;
+  width: 500px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+}
+footer h1 {
+  font-size: 100px;
+  color: var(--blue-color);
+}
+footer p {
+  font-size: 16px;
+  color: var(--secondary-color);
+  margin: 20px 0;
+}
+footer div {
+  display: flex;
+  justify-content: space-evenly;
+}
+footer div a {
+  color: var(--secondary-color);
+}
+/* ====================footer section end==================== */
