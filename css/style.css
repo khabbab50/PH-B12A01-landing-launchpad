@@ -13,4 +13,52 @@
 /* ===================universal selector end=================== */
 
 /* ======================shard style start====================== */
+:root {
+  --bg-color: #f5f8ff;
+  --primary-color: #252432;
+  --secondary-color: #8987a1;
+  --blue-color: #4e47ff;
+  --white-color: #ffff;
+}
+.container {
+  max-width: 1140px;
+  margin: 0 auto;
+}
+a {
+  text-decoration: none;
+}
+button {
+  padding: 12px 36px;
+  background: var(--blue-color);
+  color: var(--white-color);
+  border-radius: 10px;
+  font-size: 16px;
+  transition: all;
+  border: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+button:hover {
+  background: #00009c;
+  transition-duration: 5000;
+}
 /* ======================shard style end ======================= */
+
+/* ======================body section start====================== */
+body {
+  background: var(--bg-color);
+}
+/* ======================body section end====================== */
+
+/* ====================header section start==================== */
+header nav {
+  display: flex;
+  justify-content: space-between;
+  padding: 50px 0;
+}
+header nav a {
+  font-size: 34px;
+  font-weight: 900;
+  color: var(--blue-color);
+}
+/* ====================header section end==================== */
