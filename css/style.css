@@ -42,6 +42,15 @@ button:hover {
   background: #00009c;
   transition-duration: 5000;
 }
+.section_title {
+  font-size: 42px;
+  font-weight: 700;
+  color: var(--primary-color);
+}
+.section_sub_title {
+  font-size: 24px;
+  color: var(--secondary-color);
+}
 /* ======================shard style end ======================= */
 
 /* ======================body section start====================== */
@@ -74,5 +83,26 @@ header nav a {
   font-size: 65px;
   margin-bottom: 37px;
   font-weight: 700;
+  color: var(--primary-color);
 }
 /* ====================header section end==================== */
+
+/* ====================action section start==================== */
+.action_section {
+  padding: 116px 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.action_section .action_content {
+  width: 517px;
+  display: flex;
+  flex-direction: column;
+  gap: 23px;
+}
+.action_section .action_image img {
+  width: 403px;
+  height: 328px;
+  border-radius: 48px;
+}
+/* ====================action section end==================== */
