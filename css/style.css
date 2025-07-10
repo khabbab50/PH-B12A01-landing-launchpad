@@ -1,5 +1,5 @@
 /* =======================google font start======================= */
-@import url("https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap");
 /* =======================google font end======================= */
 
 /* ===================universal selector start=================== */
@@ -74,6 +74,7 @@ header nav a {
   font-size: 34px;
   font-weight: 900;
   color: var(--blue-color);
+  font-family: "Inter", sans-serif;
 }
 .hero_section {
   padding: 200px 0;
@@ -106,3 +107,30 @@ header nav a {
   border-radius: 48px;
 }
 /* ====================action section end==================== */
+
+/* ====================productive user section start==================== */
+.productive_user_section {
+  background: #4e47ff1a;
+  padding: 50px 80px;
+  border-radius: 24px;
+  text-align: center;
+}
+.productive_user_section h2 {
+  font-size: 38px;
+}
+.productive_user_section .productive_users_container {
+  padding-top: 40px;
+  display: flex;
+  justify-content: space-around;
+}
+.productive_user_section .productive_users_container .productive_users_item h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 80px;
+  font-weight: 700;
+  color: var(--blue-color);
+}
+.productive_user_section .productive_users_container .productive_users_item p {
+  font-size: 20px;
+  color: var(--secondary-color);
+}
+/* ====================productive user section end==================== */
