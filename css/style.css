@@ -223,3 +223,44 @@ header nav a {
   border-radius: 48px;
 }
 /* ====================Ready to focus better section end==================== */
+
+/* ====================get_in_touch section start==================== */
+.get_in_touch {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 90px 0;
+}
+.get_in_touch_content {
+  width: 528px;
+}
+.get_in_touch_content h1 {
+  font-size: 97px;
+  font-weight: 700;
+}
+.get_in_touch form {
+  width: 497px;
+  display: flex;
+  flex-direction: column;
+  gap: 19px;
+  font-family: "Inter", sans-serif;
+}
+.get_in_touch form div {
+  display: flex;
+  flex-direction: column;
+}
+.get_in_touch form div label {
+  font-size: 18px;
+  color: #000;
+  font-weight: 500;
+  margin-bottom: 8px;
+}
+.get_in_touch form div input,
+textarea {
+  padding: 20px 32px;
+  border: none;
+  outline: none;
+  border-radius: 10px;
+  font-size: 20px;
+}
+/* ====================get_in_touch section end==================== */
